@@ -1,4 +1,0 @@
-interface:
-  display_name: "Werbeanrufe an der Quelle stoppen"
-  short_description: "Anrufquellen prüfen und Werbung beim Absender stoppen"
-  default_prompt: "Nutze $fritzbox-spam-source-stop, um unerwünschte Werbeanrufe an der Quelle abzustellen und bekannte Kontakte erreichbar zu lassen."

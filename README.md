@@ -1,21 +1,27 @@
-# FRITZ!Box Spam Source Stop
+# Stop Unwanted Calls
 
-Ein Codex-Skill zum Untersuchen und Abstellen unerwünschter Werbeanrufe an der Quelle.
+Ein allgemeiner KI-Skill zum Untersuchen und Abstellen unerwünschter Werbeanrufe an der Quelle.
 
-Der Ablauf nutzt die Anrufdaten einer FRITZ!Box als Belege, prüft die tatsächliche Betreiberzuordnung und bereitet Werbewidersprüche, Auskunftsanfragen oder sachliche Beschwerden vor. Er schützt bekannte Kontakte und berücksichtigt gemeinsam genutzte Haushaltsanschlüsse. Lokale Rufsperren sind kein Ersatz für das gewünschte Vorgehen.
+Der Ablauf nutzt Anrufdaten aus Telefon, Anbieterportal, Router oder einem bereitgestellten Export, prüft die tatsächliche Betreiberzuordnung und bereitet Werbewidersprüche, Auskunftsanfragen oder sachliche Beschwerden vor. Er schützt bekannte Kontakte und gemeinsam genutzte Haushaltsanschlüsse. Wenn der Nutzer die Weitergabe seiner Mailadresse oder von Bewohnernamen untersagt, gilt das auch für Absenderfelder, Formulare und Anhänge. Lokale Rufsperren sind kein Ersatz für das gewünschte Vorgehen.
 
-## Installation
+## Mit beliebigen KI-Assistenten verwenden
 
-Dieses Repository als Ordner `fritzbox-spam-source-stop` in das eigene Skills-Verzeichnis kopieren, standardmäßig `~/.codex/skills/`. Die Datei `SKILL.md` liegt direkt darin. Bestehende Installationen vor dem Ersetzen prüfen.
+Das Repository folgt dem offenen [Agent-Skills-Format](https://agentskills.io/specification): `SKILL.md` enthält die Anleitung, `references/source-remedies.md` die zusätzlichen Vorlagen und deutschen Beschwerdewege. Es setzt weder ein bestimmtes KI-Produkt noch ein bestimmtes Routermodell voraus.
+
+Bei einem Assistenten mit Agent-Skills-Unterstützung den Ordner `stop-unwanted-calls` über dessen Skill-Verwaltung hinzufügen; Ablageort und Aktivierung richten sich nach dem jeweiligen Produkt.
+
+Bei einem Assistenten ohne Skill-Verwaltung beide Markdown-Dateien als Anweisungen bereitstellen oder in den Chat einfügen. Das überträgt den Ablauf, fügt aber keine Werkzeuge oder Berechtigungen hinzu. Den Assistenten mit der folgenden Aufgabe starten.
 
 ## Verwendung
 
 ```text
-Nutze $fritzbox-spam-source-stop. Finde die Quelle meiner Werbeanrufe.
+Wende den beigefügten Skill „Stop Unwanted Calls“ an.
+Finde die Quelle meiner Werbeanrufe.
 Keine Nummern blockieren. Frag mich bei jedem Anbieter einzeln,
 ob ich dessen Anrufe noch brauche. Eindeutige Betrugsversuche ablehnen.
+Gib meine persönliche Mailadresse und Bewohnernamen nicht weiter.
 ```
 
-Für den Routerzugriff wird ein passendes verbundenes Werkzeug oder Browser-/Computerzugriff benötigt. Für Nachrichten und Beschwerden ist ein verfügbarer Versandweg erforderlich. Der Skill enthält keine Zugangsdaten und erteilt keine zusätzlichen Berechtigungen.
+Für direkten Zugriff auf Anrufdaten wird ein passendes verbundenes Werkzeug oder Browser-/Computerzugriff benötigt. Ohne diesen Zugriff arbeitet der Assistent mit bereitgestellten Daten. Für direkte externe Aktionen ist ein verfügbarer, genehmigter Kommunikationsweg erforderlich; sonst erstellt der Assistent konkrete Entwürfe und nennt die verbleibenden Schritte. Der Skill enthält keine Zugangsdaten und erteilt keine zusätzlichen Berechtigungen.
 
 Nummernanzeigen und Bewertungsportale beweisen keine Betreiberidentität. Ein versendeter Widerspruch ist noch keine bestätigte Einstellung der Anrufe. Der Skill verspricht keine vollständige Spamfreiheit und enthält keine privaten Fall- oder Anrufdaten.

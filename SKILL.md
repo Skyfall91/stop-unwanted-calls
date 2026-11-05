@@ -1,11 +1,13 @@
 ---
-name: fritzbox-spam-source-stop
-description: Use when a user wants unwanted advertising or scam calls investigated and stopped at their source using FRITZ!Box call evidence, especially when local blocking is unwanted or a shared household must remain reachable.
+name: stop-unwanted-calls
+description: Use when a user wants unwanted advertising or scam calls investigated and stopped at their source, especially when local blocking is unwanted, private contact details must not spread, or a shared household must remain reachable.
 ---
 
-# Stop Advertising Calls at the Source
+# Stop Unwanted Calls
 
 Identify the responsible caller and data source, then pursue a verified opt-out, direct-marketing objection or factual provider/regulator report. Keep legitimate callers reachable. Treat “eliminate the source” as ending unwanted calling through legitimate channels.
+
+This is an assistant-independent Agent Skill. Use the tools actually available in the current environment; no particular model, vendor, operating system or router is required. With no access to call records or external actions, work from user-provided evidence and produce usable messages or instructions, clearly identifying steps the user must perform. Never imply background monitoring or call-control capabilities that are unavailable.
 
 ## Operating rules
 
@@ -14,12 +16,13 @@ Identify the responsible caller and data source, then pursue a verified opt-out,
 - A clear scam can be rejected immediately within available capabilities and the user's authorization. End an active interaction without sharing codes, paying or installing software. A negative community review, missed call, unfamiliar number or genuine company's marketing is not by itself a clear scam. If no call-control capability exists, tell the user to hang up; never pretend to have rejected it.
 - Shared household: use the affected telephone number, not an inferred resident's name. Do not take the mail-account owner's name as proof of the user's identity or claim to represent all residents. Ask for identity or subscriber authority only if the actual procedure needs it, explaining why. Avoid inventing personal GDPR claims about other residents.
 - Source investigation and “this provider is unwanted” do not by themselves authorize disclosure to a newly discovered recipient. Prepare the exact message first; apply the host's external-action and sensitive-data rules. Preserve existing specific authorization and ask only for genuinely missing permission or information.
+- Protect the user's personal email address and names in message text, sender display, From/Reply-To headers, form fields and attachments. When the user says not to disclose their email, do not send from their account, enter it in a contact form, or propose a new alias/account without approval. Prefer verified removal mechanisms needing only the already-called number, an existing authenticated provider channel, a postal draft without unnecessary resident details, or a factual report to the competent authority. These routes still need the applicable authorization for the actual recipient and disclosed data. If a route requires forbidden or mandatory identity data, find a different route or report that exact blocker; never fabricate fields or promise anonymity.
 
 ## Collect and attribute
 
-Use a connected router tool if sufficient; otherwise inspect its UI with the available browser/computer tools. Let the user handle unavailable login credentials. Do not reset the router, change credentials or alter unrelated network/security settings.
+Use available telephone-provider tools, device call history, a router interface or a user-supplied export. With permission to inspect a device, prefer a sufficient connected tool before browser/computer interaction. Let the user handle unavailable login credentials. Do not reset devices, change credentials or alter unrelated network/security settings.
 
-Read call direction, date/time and timezone, displayed caller number, any separate “Anschluss” number, called household number and available messages. Preserve the original log. Confirm the local area code from router settings before expanding a shortened household number.
+Read call direction, date/time and timezone, displayed caller number, any separately reported connection number (sometimes labelled “Anschluss”), called household number and available messages. Preserve the original log. Confirm the local area code from actual account/device settings or the user before expanding a shortened household number.
 
 Group exact duplicates and recurring number pairs. Count log entries as entries, not necessarily distinct people or conversations. Mark observations, third-party reports and inferences separately.
 

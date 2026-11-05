@@ -21,6 +21,8 @@ Official starting points:
 
 ## Message to a verified provider
 
+The text can be used in an authorized form, postal letter or email. First check what the selected channel exposes. If the user prohibits personal email disclosure, do not use their mail account or a form requiring that email. For a postal letter, replace the email reply instruction with the separately agreed response channel; do not invent a return address. A number-only removal interface may offer no written response: record the actual visible outcome instead.
+
 To: <OFFICIALLY_VERIFIED_CONTACT>
 
 Subject: Keine Werbeanrufe an <AFFECTED_NUMBER> – Widerspruch und Datenherkunft
@@ -44,6 +46,16 @@ Use this opening before the objection, adapting to the evidence:
 > Zu den unten aufgeführten Rufnummern gibt es öffentliche Hinweise auf Ihr Unternehmen. Die Zuordnung ist nicht gesichert. Bitte bestätigen Sie zunächst, ob die Anrufe von Ihnen oder einem Ihrer beauftragten Dienstleister stammen. Falls dies zutrifft, gilt der folgende Werbewiderspruch. Andernfalls bitte ich um kurze schriftliche Mitteilung; ich behaupte keine feststehende Verantwortlichkeit Ihres Unternehmens.
 
 Before sending, explain that the recipient is a hypothesis, and enumerate the private data it would receive. Do not send the complete household log to establish attribution.
+
+## Alternatives without disclosing a personal email address
+
+Check the independently verified organization's own privacy/contact information for an existing number-only objection/removal mechanism. Inspect mandatory fields before entering any data. Avoid marketing callback and lead-generation forms; they can create a fresh contact request rather than remove one.
+
+An authenticated telephone-provider support portal can be a route to request an investigation or submit evidence without sharing an email address with the suspected marketer. Check who will receive the data and what the provider can actually do; it is not automatic source shutdown.
+
+Prepare a postal objection with the already-called number and relevant evidence, omitting resident names and email when the chosen procedure allows this. Verify the postal recipient. Do not buy postage or send a letter without the required authorization.
+
+For authority reports, inspect the current form's mandatory identity/contact requirements and confidentiality information. Never assume the complainant's details remain hidden from the respondent. If a personal email, name, signature or subscriber authority is mandatory, explain the specific requirement and obtain the user's decision instead of entering false information or silently relaxing their privacy preference.
 
 ## Factual report to a provider or authority
 
