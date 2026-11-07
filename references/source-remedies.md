@@ -16,8 +16,17 @@ Official starting points:
 - [Belästigende Anrufversuche](https://www.bundesnetzagentur.de/DE/Vportal/TK/Aerger/Faelle/PredictiveDialer/start.html)
 - [Unerlaubte Telefonwerbung](https://www.bundesnetzagentur.de/DE/Vportal/TK/Aerger/Faelle/UEW/start.html)
 - [Rufnummernmanipulation](https://www.bundesnetzagentur.de/DE/Vportal/TK/Aerger/Faelle/Manipulation/start.html)
+- [Official German geographic number block register](https://www.bundesnetzagentur.de/DE/Fachthemen/Telekommunikation/Nummerierung/ONRufnr/Verzeichnisse/start.html)
 - [Berlin data-protection authority: advertising objections](https://www.datenschutz-berlin.de/buergerinnen-und-buerger/selbstdatenschutz/ueberpruefung-ihrer-daten/werbung/)
 - [GDPR official text](https://eur-lex.europa.eu/eli/reg/2016/679/oj)
+
+## Ask a carrier to check a number
+
+When the call log lists both a displayed number and a network-provided number, check the device documentation for what the two fields represent. Look up the network-provided number in the official block register if one exists. Use the original block holder as a routing lead. Porting can change the current carrier, and an allocation says nothing about who placed or commissioned a call.
+
+For a first inquiry, use the original block holder's official contact. Omit the household number and full call log. Check what the sender address and display name expose before sending. Check that any permission to use a personal sender address covers the original block holder in that role. If it does, ask the recipient to keep the address from the suspected caller and its client.
+
+> Guten Tag, bei wiederholten unerwünschten Anrufversuchen wurde [ANGEZEIGTE_RUFNUMMER] angezeigt und zusätzlich [NETZSEITIGE_RUFNUMMER] übermittelt. Laut [AMTLICHES_VERZEICHNIS] wurde der zugehörige Block ursprünglich Ihnen zugeteilt. Können Sie prüfen, ob diese Anschlussnummer aktuell über Ihr Netz bereitgestellt wird? An welche Stelle kann ich die Anrufversuche zur Prüfung melden? Bitte antworten Sie schriftlich und geben Sie meine Absenderadresse nicht an den Anrufer oder dessen Auftraggeber weiter. Ein Rückruf ist nicht erwünscht.
 
 ## Message to a verified provider
 

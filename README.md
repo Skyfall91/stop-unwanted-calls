@@ -1,27 +1,32 @@
 # Stop Unwanted Calls
 
-Ein allgemeiner KI-Skill zum Untersuchen und Abstellen unerwünschter Werbeanrufe an der Quelle.
+Ein Agent Skill, der unerwünschte Anrufe untersucht und hilft, sie beim Verursacher abzustellen.
 
-Der Ablauf nutzt Anrufdaten aus Telefon, Anbieterportal, Router oder einem bereitgestellten Export, prüft die tatsächliche Betreiberzuordnung und bereitet Werbewidersprüche, Auskunftsanfragen oder sachliche Beschwerden vor. Er schützt bekannte Kontakte und gemeinsam genutzte Haushaltsanschlüsse. Wenn der Nutzer die Weitergabe seiner Mailadresse oder von Bewohnernamen untersagt, gilt das auch für Absenderfelder, Formulare und Anhänge. Lokale Rufsperren sind kein Ersatz für das gewünschte Vorgehen.
+| Worum geht es? | Passender Skill |
+|---|---|
+| Werbeanrufe und Betrugsversuche am Telefon | **Stop Unwanted Calls** · `stop-unwanted-calls` |
+| Spam, unerwünschte Newsletter und Phishing per Mail | [Stop Unwanted Email](https://github.com/Skyfall91/stop-unwanted-email) · `stop-unwanted-email` |
 
-## Mit beliebigen KI-Assistenten verwenden
+## Was der Skill macht
 
-Das Repository folgt dem offenen [Agent-Skills-Format](https://agentskills.io/specification): `SKILL.md` enthält die Anleitung, `references/source-remedies.md` die zusätzlichen Vorlagen und deutschen Beschwerdewege. Es setzt weder ein bestimmtes KI-Produkt noch ein bestimmtes Routermodell voraus.
+Er wertet Anruflisten aus Telefon, Router, Anbieterportal oder Export aus. Er prüft angezeigte und netzseitig übermittelte Rufnummern und wählt anhand der Belege zwischen einer Netzbetreiberanfrage, einem Werbewiderspruch und einer sachlichen Meldung. Bekannte Kontakte bleiben erreichbar. Wer kontaktiert werden darf und welche Angaben dabei sichtbar werden, richtet sich nach deiner Freigabe.
 
-Bei einem Assistenten mit Agent-Skills-Unterstützung den Ordner `stop-unwanted-calls` über dessen Skill-Verwaltung hinzufügen; Ablageort und Aktivierung richten sich nach dem jeweiligen Produkt.
+## Installieren
 
-Bei einem Assistenten ohne Skill-Verwaltung beide Markdown-Dateien als Anweisungen bereitstellen oder in den Chat einfügen. Das überträgt den Ablauf, fügt aber keine Werkzeuge oder Berechtigungen hinzu. Den Assistenten mit der folgenden Aufgabe starten.
+1. Lade das Repository über **Code → Download ZIP** herunter und entpacke es. Benenne den entpackten Ordner `stop-unwanted-calls`.
+2. **Mit Agent-Skills-Unterstützung:** Füge den Ordner mit `SKILL.md` und `references/` über die Skill-Verwaltung deines Assistenten hinzu. Das Repository verwendet das offene [Agent-Skills-Format](https://agentskills.io/specification).
+3. **Ohne Skill-Verwaltung:** Gib dem Assistenten `SKILL.md` und `references/source-remedies.md` als Dateien oder kopiere beide Texte in den Chat. Starte anschließend mit dem Beispiel unten.
 
-## Verwendung
+## Ausprobieren
 
 ```text
-Wende den beigefügten Skill „Stop Unwanted Calls“ an.
-Finde die Quelle meiner Werbeanrufe.
-Keine Nummern blockieren. Frag mich bei jedem Anbieter einzeln,
-ob ich dessen Anrufe noch brauche. Eindeutige Betrugsversuche ablehnen.
-Gib meine persönliche Mailadresse und Bewohnernamen nicht weiter.
+Nutze den Skill „Stop Unwanted Calls“ für diese Anrufliste.
+Finde heraus, wer hinter den Anrufen steckt, und bereite die passende
+Maßnahme an der Quelle vor. Bekannte Kontakte sollen erreichbar bleiben.
+Frag bei unklaren Anbietern einzeln nach. Keine lokalen Rufsperren.
+Sag vor dem Versand, welche meiner Daten der Empfänger sehen würde.
 ```
 
-Für direkten Zugriff auf Anrufdaten wird ein passendes verbundenes Werkzeug oder Browser-/Computerzugriff benötigt. Ohne diesen Zugriff arbeitet der Assistent mit bereitgestellten Daten. Für direkte externe Aktionen ist ein verfügbarer, genehmigter Kommunikationsweg erforderlich; sonst erstellt der Assistent konkrete Entwürfe und nennt die verbleibenden Schritte. Der Skill enthält keine Zugangsdaten und erteilt keine zusätzlichen Berechtigungen.
+## Zugriff und Ergebnis
 
-Nummernanzeigen und Bewertungsportale beweisen keine Betreiberidentität. Ein versendeter Widerspruch ist noch keine bestätigte Einstellung der Anrufe. Der Skill verspricht keine vollständige Spamfreiheit und enthält keine privaten Fall- oder Anrufdaten.
+Der Assistent braucht Zugriff auf die Anrufliste oder einen von dir bereitgestellten Auszug. Der Skill selbst enthält nur Anleitung und Vorlagen. Ohne freigegebenen Versandweg erstellt der Assistent einen Entwurf. Bei einer ausgeführten Aktion meldet er, was gesendet wurde und ob der Empfänger die Umsetzung bestätigt hat.
