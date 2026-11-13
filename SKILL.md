@@ -22,6 +22,8 @@ This is an assistant-independent Agent Skill. Use the tools actually available i
 
 Use available telephone-provider tools, device call history, a router interface or a user-supplied export. With permission to inspect a device, prefer a sufficient connected tool before browser/computer interaction. Let the user handle unavailable login credentials. Do not reset devices, change credentials or alter unrelated network/security settings.
 
+On follow-up, first review the existing case record, user decisions, authorizations and open replies. Refresh the available call log and inspect new entries since the last check; investigate recurring or selected numbers without redoing settled research. A missing caller name or a missed call alone does not establish an unwanted provider. Ask whether an uncertain caller is needed when a decision is necessary, while continuing independent research.
+
 Read call direction, date/time and timezone, displayed caller number, any separately reported connection number (sometimes labelled “Anschluss”), called household number and available messages. Preserve the original log. Confirm the local area code from actual account/device settings or the user before expanding a shortened household number.
 
 Group exact duplicates and recurring number pairs. Count log entries as entries, not necessarily distinct people or conversations. Mark observations, third-party reports and inferences separately.
@@ -42,10 +44,13 @@ After a focused search and the strongest lead fail to identify the operator, rec
 | Operator unknown, clear abuse evidence | Prepare a factual report to the verified responsible provider or competent authority. |
 | Legitimate/uncertain provider not yet assessed by user | Ask about that provider; continue independent research meanwhile. |
 | Known wanted contact | Leave it alone. |
+| Obsolete business listing plausibly generates calls | Verify the exact listing, request its correction or removal through the publisher's official channel, and ask the publisher about data sources and recipients when appropriate. |
 
 Read [source-remedies.md](references/source-remedies.md) for Germany-specific routes and message templates. Check current official rules before legal/procedural claims. Do not claim an unanswered call contained advertising, that consent never existed, or that spoofing occurred without evidence.
 
 For a preliminary carrier inquiry, start with the displayed and network-provided numbers and the allocation source. Add affected household details only when required and authorized. A user may allow a personal sender address for a carrier while withholding it from suspected callers. Check that the permission covers the actual recipient and its role. An independently verified original block holder may still have an unconfirmed current relationship to the number. Ask the recipient to keep the address from the caller.
+
+If a carrier confirms it serves the network number but cannot disclose its customer, continue with the verified carrier's abuse or support channel. Ask whether it can investigate and stop the unwanted calls internally and what evidence it needs. Do not treat a carrier allocation or confirmation as proof of the caller's identity. Make an authorized, minimal follow-up in the existing case when possible.
 
 For an approved advertising objection, send the affected number and only the relevant dates or number pairs. Request cessation across the sender's campaigns and contractors, written confirmation, and the origin of the telephone data. Request a minimal sender-side do-not-contact marker to prevent reimport. Preserve records needed to honor the objection or document abuse.
 
@@ -54,5 +59,9 @@ Rejecting a scam is not replying to its attacker. Use verified abuse/reporting c
 ## Verify and report
 
 Track each provider: evidence, attribution confidence, user's decision, approved recipient/disclosure, action, timestamp and response. Distinguish **prepared**, **sent**, **receipt acknowledged**, **cessation confirmed** and **observed no recurrence**. A sent request is not proof the source stopped. If denied, preserve the denial and pursue the remaining verified leads; if refused or ignored, prepare proportionate escalation with the evidence available. Observe response periods before alleging a missed deadline. Create scheduled monitoring only when requested.
+
+For directory cleanup, group several search-result or category pages by the publisher and underlying listing. Check the actual page and its correction process, then request removal once per listing or verified source rather than contacting the same publisher repeatedly. A notice of review is not removal. After a publisher confirms a change, verify the listing and handle stale search results through the search engine's current removal process. Other matching names or separate businesses at the same address are not evidence of the targeted listing.
+
+For any authorized outreach, prepare the smallest useful message and send it when the user's existing authorization and the host's rules permit. Verify the recipient, sender, any copied recipients and the sent or submitted result. If concurrent UI changes make the destination or content uncertain, stop and recheck. When a required action is unavailable, state the exact blocker and continue with other verified leads rather than repeatedly asking for information already supplied.
 
 Report the actual result and next concrete dependency. Never promise all future spam is eliminated. Keep private case records outside the reusable skill, repository and public examples.
