@@ -17,8 +17,19 @@ Official starting points:
 - [Unerlaubte Telefonwerbung](https://www.bundesnetzagentur.de/DE/Vportal/TK/Aerger/Faelle/UEW/start.html)
 - [Rufnummernmanipulation](https://www.bundesnetzagentur.de/DE/Vportal/TK/Aerger/Faelle/Manipulation/start.html)
 - [Official German geographic number block register](https://www.bundesnetzagentur.de/DE/Fachthemen/Telekommunikation/Nummerierung/ONRufnr/Verzeichnisse/start.html)
+- [Bundesnetzagentur: information rights for telephone numbers](https://www.bundesnetzagentur.de/DE/Vportal/TK/Aerger/Auskunft/artikel.html)
 - [Berlin data-protection authority: advertising objections](https://www.datenschutz-berlin.de/buergerinnen-und-buerger/selbstdatenschutz/ueberpruefung-ihrer-daten/werbung/)
 - [GDPR official text](https://eur-lex.europa.eu/eli/reg/2016/679/oj)
+
+## Germany and EU: legal and privacy checks
+
+Check current official sources and the specific facts before invoking a rule. The relevant law, authority, category of caller and available evidence differ by jurisdiction and by consumer or business context. Distinguish a factual report from a formal claim and explain material uncertainty.
+
+- **Carrier information:** For German geographic and mobile numbers the Bundesnetzagentur describes a right to identify the original block holder, but no corresponding TKG entitlement against that carrier to reveal the individual assignee. A block assignment or confirmation of current network service does not establish the caller or customer. Ask the verified carrier whether it can investigate internally or accept a report without disclosing another customer's information. The rules for special number ranges can differ; check the official guidance above.
+- **Calls and evidence:** For the Bundesnetzagentur's consumer telephone-advertising procedure, a completed advertising conversation and the other stated conditions matter. A missed call alone does not establish an unlawful advertising call. Use the authority's separate guidance on nuisance call attempts when applicable and report only what actually happened. Do not assume the same conditions apply to all business calls or all enforcement routes.
+- **Personal data:** Where the request concerns an identifiable natural person's personal data, check whether access under GDPR Article 15, rectification under Article 16, erasure under Article 17 or objection to direct marketing under Article 21 applies. Article 19 concerns notification of recipients subject to its conditions and exceptions. Ask about actual recipients and data origin where relevant. Erasure has exceptions and does not automatically reach every third party. A minimal suppression record may be needed to honor an advertising objection. Confirm the user's authority before asserting another person's rights or acting as their representative; a factual notice of an obsolete listing need not claim such authority.
+- **Identity and timing:** Check whether identification or proof of authority is genuinely needed and request only proportionate information. Under GDPR Article 12, a response is generally due within one month, with possible extension under the stated conditions. Verify the correct start date, applicable exceptions and any notice before alleging a missed deadline. Refer unresolved data-protection issues to the competent supervisory authority where appropriate.
+- **Public artifacts:** Check both content and Git author/committer metadata before publishing. A later correction to `main` does not itself remove earlier commits, pull-request references, cached views, forks or copies. Identify affected references and use the host's current documented procedure; obtain any required authorization before rewriting published history or force-pushing.
 
 ## Ask a carrier to check a number
 
